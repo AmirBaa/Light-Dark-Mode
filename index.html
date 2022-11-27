@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Light Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script src="https://kit.fontawesome.com/50480b67f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light mode !</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!-- Navcigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects"> PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>LIGHT - DARK MODE PROJECT ! </h1>
+            <h2>Welcome to the Website!</h2>
+        </div>
+    </section>
+    <!-- About section -->
+    <section id="about">
+        <h1>DOING FUN THINGS ! </h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>MAKING PANCAKES !</h2>
+                <img src="img/undraw_pancakes_238t_LIGHT.svg" alt="QA" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>PLAYING WITH CATS ! </h2>
+                <img src="img/undraw_cat_re_gkh9_LIGHT.svg" alt="QA" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>LOSING MONEY ON BITCOIN ! </h2>
+                <img src="img/undraw_bitcoin_re_urgq_LIGHT.svg" alt="QA" id="image3">
+            </div>
+        </div>
+    </section>
+    <!-- Projects section -->
+    <section id="projects">
+        <h1>Buttons</h1>
+        <div class="buttons">
+            <button class="primary">Primary btn</button>
+            <button class="secondary">Secondary btn</button>
+            <button class="primary" disabled>Disabled btn</button>
+            <button class="outline">Outline btn</button>
+            <button class="secondary primary">Alt Outline btn</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Evil is Evil. Lesser, greater, middling… Makes no difference. The degree is arbitary. The definition’s
+                blurred. If I’m to choose between one evil and another… I’d rather not choose at all.</p>
+        </div>
+    </section>
+    <!-- Contact session -->
+    <section id="contact">
+        <div class="social-icons">
+            <i class="fa-brands fa-github-alt"></i>
+            <i class="fa-brands fa-ethereum"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-staylinked"></i>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
